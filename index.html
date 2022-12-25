@@ -59,8 +59,9 @@
 		<button id="play-sound">play sound</button>
 	</div>
 
-	<script>
+	<script id="sound-management" type="text/javascript">
 		let button = document.getElementById("play-sound");
+		console.log('button', button)
 		button.addEventListener('click', e => {
 			console.log('click')
 			const audio = document.querySelector("audio");
