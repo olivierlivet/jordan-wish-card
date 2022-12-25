@@ -55,6 +55,21 @@
 		</label>
 	</div>
 
+	<div style="position: fixed; top:0; left: 0; z-index: 99999;">
+		<button id="play-sound">play sound</button>
+	</div>
+
+	<script id="sound-management" type="text/javascript">
+		let button = document.getElementById("play-sound");
+		console.log('button', button)
+		button.addEventListener('click', e => {
+			console.log('click')
+			const audio = document.querySelector("audio");
+			audio.volume = 1;
+			audio.play();
+		});
+	</script>
+
 	<script id="seamap-query" type="text/x-overpass">
 			[out:json][timeout:300];
 			// gather results
