@@ -60,10 +60,11 @@
 	</div>
 
 	<script>
-		let button = document.querySelector('#play-sound');
+		let button = document.querySelector("#play-sound");
 		button.addEventListener('click', e => {
+			console.log('click')
 			const audio = document.querySelector("audio");
-			audio.volume = 0.2;
+			audio.volume = 1;
 			audio.play();
 		});
 
