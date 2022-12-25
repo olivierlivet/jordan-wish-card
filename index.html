@@ -55,12 +55,21 @@
 		</label>
 	</div> -->
 
+	<div>
+		<button id="play-sound">play sound</button>
+	</div>
+
 	<script>
-		window.addEventListener("DOMContentLoaded", event => {
+		let button = document.querySelector('#play-sound');
+		button.addEventListener('click', e => {
 			const audio = document.querySelector("audio");
 			audio.volume = 0.2;
 			audio.play();
 		});
+
+		<!-- window.addEventListener("DOMContentLoaded", event => {
+
+		}); -->
 
 	</script>
 
