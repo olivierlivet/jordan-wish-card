@@ -49,40 +49,58 @@
 		#message {
 			color: white;
 			position: fixed;
-			top: 10vh;
+			top: 00vh;
 			width: 100vw;
-			text-align: center;
-			font-size: 32px;
+			height: 100vh;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			font-size: 56px;
 			font-weight: bold;
 			z-index: 99999999;
+			text-stroke: 3px black;
+			-webkit-text-stroke: 3px black;
 		}
 
 		#intro {
+
+			display: flex;
+			justify-content: center;
+			align-items: center;
+
 			font-family: "Inria Sans";
 			font-size: 32px;
 			line-height: 48px;
-			padding: 10%;
+			padding-right: 10%;
+			padding-left: 10%;
 			background-color: #112800;
 			color: white;
 			z-index: 999999999;
 			position: fixed;
 			width: calc(100vw - 20%);
 			height: 100vh;
+
+			transition: opacity 250ms ease-in-out;
+			text-align: center;
+			opacity: 1;
 		}
 	</style>
 </head>
 
 <body>
-	<div id="intro" style="text-align:center;" style="opacity:1;">
-		In 2023, opsci will keep decoding opinion, enlightening seas of communities, practices, aspirations and leaders,
-		detecting their emergence and revealing their dynamics...
-		<div style="display:flex; justify-content: center; margin-top:20px;">
-			<button id="play" style="background:none; border:0;">
-				<img src="./play-button.png" />
-			</button>
+	<div id="intro">
+		<div>
+			In 2023, opsci will keep decoding opinion,<br />
+			enlightening seas of communities, practices, aspirations and leaders,<br />
+			detecting their emergence and revealing their dynamics...
+			<div style="display:flex; justify-content: center; margin-top:30px;">
+				<button id="play" style="background:none; border:0; cursor: pointer;">
+					<img src="./play-button.png" width="100px" />
+				</button>
+			</div>
 		</div>
 	</div>
-	<div id="message">Bonne année</div>
+	<div id="message">Happy New Year!</div>
 	<audio src="./music.mp3"></audio>
 	<div id="seamap"></div>
 	<div id="controls">
@@ -102,7 +120,7 @@
 
 			const intro = document.querySelector("#intro");
 			console.log('intro', intro)
-			intro.style.opacity = 0
+			intro.style.opacity = 0;
 		});
 	</script>
 
