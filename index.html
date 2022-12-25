@@ -7,6 +7,9 @@
 	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css"
 		integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ=="
 		crossorigin="" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inria+Sans&display=swap" rel="stylesheet">
 	<style>
 		html,
 		body {
@@ -53,10 +56,32 @@
 			font-weight: bold;
 			z-index: 99999999;
 		}
+
+		#intro {
+			font-family: "Inria Sans";
+			font-size: 32px;
+			line-height: 48px;
+			padding: 10%;
+			background-color: #112800;
+			color: white;
+			z-index: 999999999;
+			position: fixed;
+			width: calc(100vw - 20%);
+			height: 100vh;
+		}
 	</style>
 </head>
 
 <body>
+	<div id="intro" style="text-align:center;" style="opacity:1;">
+		In 2023, opsci will keep decoding opinion, enlightening seas of communities, practices, aspirations and leaders,
+		detecting their emergence and revealing their dynamics...
+		<div style="display:flex; justify-content: center; margin-top:20px;">
+			<button style="background:none; border:0;">
+				<img src="./play-button.png" />
+			</button>
+		</div>
+	</div>
 	<div id="message">Bonne année</div>
 	<audio src="./music.mp3"></audio>
 	<div id="seamap"></div>
@@ -67,18 +92,17 @@
 		</label>
 	</div>
 
-	<div style="position: fixed; top:0; left: 0; z-index: 99999; display: flex; justify-content: center; width: 100vw;">
-		<button id="play-sound">play sound</button>
-	</div>
-
 	<script id="sound-management" type="text/javascript">
-		let button = document.getElementById("play-sound");
-		console.log('button', button)
+		let button = document.getElementById("play");
+
 		button.addEventListener('click', e => {
-			console.log('click')
 			const audio = document.querySelector("audio");
 			audio.volume = 1;
 			audio.play();
+
+			const intro = document.querySelector("#intro");
+			console.log('intro', intro)
+			intro.style.opacity = 0
 		});
 	</script>
 
