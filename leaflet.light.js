@@ -2,14 +2,14 @@ L.Light = L.Circle.extend({
 	setColor(color) {
 		if (this._color !== color) {
 			this._color = color;
-			L.Path.prototype.setStyle.call(this, {fill: !!color, fillColor: color});
+			L.Path.prototype.setStyle.call(this, { fill: !!color, fillColor: color });
 		}
 	}
 });
 
-L.Light.sequence = function(tags, fallbackColor = '#FF0') {
-	renameProperty = function(tags, property) {
-		console.log('test')
+L.Light.sequence = function (tags, fallbackColor = '#FF0') {
+	renameProperty = function (tags, property) {
+		// console.log('test')
 		old_key = 'seamark:light:1:' + property
 		new_key = 'seamark:light:' + property
 
@@ -124,11 +124,11 @@ L.Light.sequence = function(tags, fallbackColor = '#FF0') {
 			});
 
 			if (sequences.length < colors.length)
-				console.warn('There are fewer sequences than colors', {character, sequence, colors}, tags);
+				console.warn('There are fewer sequences than colors', { character, sequence, colors }, tags);
 
 			return new L.Light.CombinedSequence(sequences);
 
-	 	default:
+		default:
 			throw 'Unknown character: ' + character
 	}
 }
@@ -169,7 +169,7 @@ L.Light.CombinedSequence = class {
 }
 
 L.Light.Sequence = class {
-	constructor(seq, color=true) {
+	constructor(seq, color = true) {
 		this.setSequence(seq, color);
 	}
 
