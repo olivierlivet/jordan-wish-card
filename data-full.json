@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
-    "timestamp_osm_base": "2026-09-07T01:01:34Z",
+    "timestamp_osm_base": "2026-09-08T00:57:33Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -13674,7 +13674,8 @@
     "seamark:light:reference": "J 6330",
     "seamark:name": "Noordwestpunt",
     "seamark:type": "landmark",
-    "wikidata": "Q2279321"
+    "wikidata": "Q2279321",
+    "wikimedia_commons": "File:Oranjestad - 55376389172.jpg"
   }
 },
 {
@@ -323491,7 +323492,6 @@
   "lat": 35.5474762,
   "lon": 23.7806786,
   "tags": {
-    "man_made": "lighthouse",
     "seamark:light:character": "Fl",
     "seamark:light:colour": "red",
     "seamark:light:height": "8",
@@ -323506,10 +323506,9 @@
 {
   "type": "node",
   "id": 1576220528,
-  "lat": 35.5481366,
-  "lon": 23.7812431,
+  "lat": 35.5479974,
+  "lon": 23.7822619,
   "tags": {
-    "man_made": "lighthouse",
     "seamark:light:character": "Fl",
     "seamark:light:colour": "green",
     "seamark:light:height": "8",
@@ -546307,6 +546306,27 @@
     "seamark:signal_station_warning:category": "storm",
     "seamark:type": "landmark",
     "source": "US NGA Pub 112. 2026"
+  }
+},
+{
+  "type": "node",
+  "id": 14158723200,
+  "lat": 43.4181667,
+  "lon": 13.7460000,
+  "tags": {
+    "ref": "3915.9",
+    "seamark:beacon_special_purpose:colour": "yellow",
+    "seamark:light:character": "Fl",
+    "seamark:light:colour": "yellow",
+    "seamark:light:group": "5",
+    "seamark:light:height": "7.5",
+    "seamark:light:period": "20",
+    "seamark:light:range": "5",
+    "seamark:light:reference": "E 2340",
+    "seamark:light:sequence": "1+(1)+1+(1)+1+(1)+1+(1)+1+(11)",
+    "seamark:topmark:colour": "yellow",
+    "seamark:topmark:shape": "x-shape",
+    "seamark:type": "beacon_special_purpose"
   }
 },
 {
