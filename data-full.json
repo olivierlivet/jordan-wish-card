@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
-    "timestamp_osm_base": "2026-09-23T00:56:37Z",
+    "timestamp_osm_base": "2026-09-24T00:57:04Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -558266,6 +558266,7 @@
     "image": "https://photos.app.goo.gl/JENTYooHiqS6bhEU6",
     "man_made": "lighthouse",
     "name": "Latarnia morska Świnoujście",
+    "name:de": "Leuchtturm Morska",
     "opening_hours": "08:00-20:00",
     "seamark:light:1:character": "Oc",
     "seamark:light:1:colour": "red",
@@ -561509,7 +561510,7 @@
     "image": "https://commons.wikimedia.org/wiki/File%3ALeuchtturm_Dornbusch_1.jpg",
     "man_made": "lighthouse",
     "name": "Leuchtturm Dornbusch",
-    "opening_hours": "Jun-Oct: Mo-Sa 10:30-16:00",
+    "opening_hours": "Apr-Oct: Mo-Su 10:30-16:00",
     "seamark:conspicuity": "conspicuous",
     "seamark:construction": "concreted",
     "seamark:landmark:colour": "white",
@@ -614672,32 +614673,32 @@
 {
   "type": "node",
   "id": 1751308138,
-  "lat": 43.4548226,
-  "lon": 4.5703535
+  "lat": 43.4548225,
+  "lon": 4.5703536
 },
 {
   "type": "node",
   "id": 1751308159,
-  "lat": 43.4548219,
-  "lon": 4.5702890
+  "lat": 43.4548216,
+  "lon": 4.5702886
 },
 {
   "type": "node",
   "id": 1751308300,
-  "lat": 43.4548503,
-  "lon": 4.5702884
+  "lat": 43.4548423,
+  "lon": 4.5702881
 },
 {
   "type": "node",
   "id": 6342620176,
-  "lat": 43.4548694,
-  "lon": 4.5702878
+  "lat": 43.4548700,
+  "lon": 4.5702870
 },
 {
   "type": "node",
   "id": 6342620177,
-  "lat": 43.4548706,
-  "lon": 4.5703510
+  "lat": 43.4548711,
+  "lon": 4.5703517
 },
 {
   "type": "node",
