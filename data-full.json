@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
-    "timestamp_osm_base": "2026-10-30T00:44:21Z",
+    "timestamp_osm_base": "2026-10-31T00:36:18Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -225682,6 +225682,7 @@
     "seamark:light:3:sector_start": "342",
     "seamark:light:3:sequence": "6+(2)",
     "seamark:light:reference": "P 3532.2",
+    "seamark:signal_station_traffic:category": "port_entry_departure",
     "seamark:type": "light_minor",
     "source": "US NGA Pub. 112. 2009-11-12."
   }
@@ -346589,6 +346590,7 @@
   "lat": 53.8497815,
   "lon": 13.8110691,
   "tags": {
+    "description": "Ab vsl. 02.11.2026 werden der Rückbau und die Inbetriebnahme des Ersatzneubaus des Richtfeuers „Jahnkenort“ erfolgen. Während dieser Arbeiten ist damit zu rechnen, dass das Richtfeuer zeitweilig nicht zur Verfügung steht.",
     "seamark:beacon_special_purpose:category": "leading",
     "seamark:beacon_special_purpose:colour": "white",
     "seamark:beacon_special_purpose:shape": "pile",
@@ -346612,9 +346614,10 @@
 {
   "type": "node",
   "id": 1744849128,
-  "lat": 53.8509077,
-  "lon": 13.8122982,
+  "lat": 53.8509083,
+  "lon": 13.8123000,
   "tags": {
+    "description": "Ab vsl. 02.11.2026 werden der Rückbau und die Inbetriebnahme des Ersatzneubaus des Richtfeuers „Jahnkenort“ erfolgen. Während dieser Arbeiten ist damit zu rechnen, dass das Richtfeuer zeitweilig nicht zur Verfügung steht.",
     "seamark:beacon_special_purpose:category": "leading",
     "seamark:beacon_special_purpose:colour": "white",
     "seamark:beacon_special_purpose:shape": "pile",
