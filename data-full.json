@@ -2,7 +2,7 @@
   "version": 0.6,
   "generator": "Overpass API 0.7.62.11 87bfad18",
   "osm3s": {
-    "timestamp_osm_base": "2026-11-15T06:33:49Z",
+    "timestamp_osm_base": "2026-11-19T07:26:24Z",
     "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
   },
   "elements": [
@@ -1631,36 +1631,6 @@
     "seamark:type": "light_minor",
     "source": "US NGA Pub. 114. 2011-05-26.",
     "wikidata": "Q28803324"
-  }
-},
-{
-  "type": "node",
-  "id": 245650406,
-  "lat": 18.7034099,
-  "lon": 72.8147382,
-  "tags": {
-    "seamark:light:1:character": "Fl",
-    "seamark:light:1:colour": "red",
-    "seamark:light:1:group": "2",
-    "seamark:light:1:height": "47",
-    "seamark:light:1:period": "10",
-    "seamark:light:1:range": "22",
-    "seamark:light:1:sector_end": "1",
-    "seamark:light:1:sector_start": "336",
-    "seamark:light:1:sequence": "0.3+(2.6),0.3+(6.8)",
-    "seamark:light:2:character": "Fl",
-    "seamark:light:2:colour": "white",
-    "seamark:light:2:group": "2",
-    "seamark:light:2:height": "47",
-    "seamark:light:2:period": "10",
-    "seamark:light:2:range": "25",
-    "seamark:light:2:sector_end": "201",
-    "seamark:light:2:sector_start": "1",
-    "seamark:light:2:sequence": "0.3+(2.6),0.3+(6.8)",
-    "seamark:light:reference": "F 0556",
-    "seamark:name": "Khanderi Island",
-    "seamark:type": "light_major",
-    "source": "AND;US NGA Pub. 112. 2009-11-12."
   }
 },
 {
@@ -6444,6 +6414,7 @@
     "name": "Anklamer Fähre-O (Unterfeuer)",
     "seamark:beacon_special_purpose:category": "leading",
     "seamark:beacon_special_purpose:colour": "white",
+    "seamark:beacon_special_purpose:shape": "lattice",
     "seamark:light:character": "Oc",
     "seamark:light:colour": "white",
     "seamark:light:group": "3",
@@ -228762,20 +228733,108 @@
 },
 {
   "type": "node",
-  "id": 1293785105,
-  "lat": -5.7266776,
-  "lon": 123.8987896,
+  "id": 1293785090,
+  "lat": -5.2598614,
+  "lon": 123.5356704,
   "tags": {
-    "seamark:light:character": "Fl",
-    "seamark:light:colour": "white",
-    "seamark:light:height": "12",
-    "seamark:light:period": "5",
-    "seamark:light:range": "12",
-    "seamark:light:reference": "K 1558.3",
-    "seamark:light:sequence": "0.5+(4.5)",
-    "seamark:name": "Pulau Tomea",
+    "description": "White metal framework tower",
+    "height": "21",
+    "man_made": "lighthouse",
+    "seamark:light:1:character": "Fl",
+    "seamark:light:1:colour": "white",
+    "seamark:light:1:group": "2",
+    "seamark:light:1:height": "150",
+    "seamark:light:1:period": "12.0",
+    "seamark:light:1:range": "29",
+    "seamark:light:1:sector_end": "259",
+    "seamark:light:1:sector_start": "12",
+    "seamark:light:1:sequence": "0.5+(3.0)+0.5+(8.0)",
+    "seamark:light:reference": "Q 1558",
+    "seamark:name": "Pulau Wangiwangi",
+    "seamark:type": "light_major",
+    "source": "US NGA Pub. 112. 2026-09-01"
+  }
+},
+{
+  "type": "node",
+  "id": 1293785097,
+  "lat": -5.3523270,
+  "lon": 123.5392280,
+  "tags": {
+    "description": "White beacon",
+    "man_made": "beacon",
+    "seamark:light:1:character": "Fl",
+    "seamark:light:1:colour": "white",
+    "seamark:light:1:height": "18",
+    "seamark:light:1:period": "3.0",
+    "seamark:light:1:range": "11",
+    "seamark:light:1:sequence": "0.5+(2.5)",
+    "seamark:light:reference": "Q 1558.2",
+    "seamark:name": "Midden",
     "seamark:type": "light_minor",
-    "source": "US NGA Pub. 112. 2009-11-12."
+    "source": "US NGA Pub. 112. 2026-09-01"
+  }
+},
+{
+  "type": "node",
+  "id": 1293785105,
+  "lat": -5.7155601,
+  "lon": 123.9053307,
+  "tags": {
+    "description": "White beacon",
+    "man_made": "beacon",
+    "seamark:light:1:character": "Fl",
+    "seamark:light:1:colour": "white",
+    "seamark:light:1:height": "12",
+    "seamark:light:1:period": "5.0",
+    "seamark:light:1:range": "12",
+    "seamark:light:1:sequence": "0.5+(4.5)",
+    "seamark:light:reference": "Q 1558.3",
+    "seamark:name": "Pulau Tomea, Karang Waha",
+    "seamark:type": "light_minor",
+    "source": "US NGA Pub. 112. 2026-09-01"
+  }
+},
+{
+  "type": "node",
+  "id": 1293785133,
+  "lat": -6.1324741,
+  "lon": 124.5995115,
+  "tags": {
+    "description": "White tower",
+    "man_made": "beacon",
+    "seamark:light:1:character": "Fl",
+    "seamark:light:1:colour": "white",
+    "seamark:light:1:group": "4",
+    "seamark:light:1:height": "45",
+    "seamark:light:1:period": "10.0",
+    "seamark:light:1:range": "27",
+    "seamark:light:1:sequence": "0.1+(2.2)+0.1+(2.2)+0.1+(2.2)+0.1+(3.0)",
+    "seamark:light:reference": "Q 1558.33",
+    "seamark:name": "Pulau Moromaho",
+    "seamark:type": "light_major",
+    "source": "US NGA Pub. 112. 2026-09-01"
+  }
+},
+{
+  "type": "node",
+  "id": 1293785166,
+  "lat": -6.2079436,
+  "lon": 122.6990189,
+  "tags": {
+    "description": "White beacon",
+    "man_made": "beacon",
+    "seamark:light:1:character": "Fl",
+    "seamark:light:1:colour": "white",
+    "seamark:light:1:group": "2",
+    "seamark:light:1:height": "144",
+    "seamark:light:1:period": "5.0",
+    "seamark:light:1:range": "20",
+    "seamark:light:1:sequence": "0.5+(1.0)+0.5+(3.0)",
+    "seamark:light:reference": "Q 1553.2",
+    "seamark:name": "Pulau Batuata",
+    "seamark:type": "light_major",
+    "source": "US NGA Pub. 112. 2026-09-01"
   }
 },
 {
@@ -269682,60 +269741,6 @@
 },
 {
   "type": "node",
-  "id": 1473352218,
-  "lat": 52.0839089,
-  "lon": 1.5743228,
-  "tags": {
-    "name": "Site of old Orfordness Lighthouse",
-    "place": "locality",
-    "seamark:light:1:character": "Fl",
-    "seamark:light:1:colour": "white",
-    "seamark:light:1:height": "28",
-    "seamark:light:1:period": "5",
-    "seamark:light:1:range": "20",
-    "seamark:light:1:sector_end": "65",
-    "seamark:light:1:sector_start": "195",
-    "seamark:light:1:sequence": "0.1+(4.9)",
-    "seamark:light:2:character": "F",
-    "seamark:light:2:colour": "red",
-    "seamark:light:2:height": "14",
-    "seamark:light:2:period": "5",
-    "seamark:light:2:range": "13",
-    "seamark:light:2:sector_end": "210",
-    "seamark:light:2:sector_start": "195",
-    "seamark:light:3:character": "F",
-    "seamark:light:3:colour": "white",
-    "seamark:light:3:height": "14",
-    "seamark:light:3:period": "5",
-    "seamark:light:3:range": "17",
-    "seamark:light:3:sector_end": "47",
-    "seamark:light:3:sector_start": "38",
-    "seamark:light:4:character": "F",
-    "seamark:light:4:colour": "green",
-    "seamark:light:4:height": "14",
-    "seamark:light:4:period": "5",
-    "seamark:light:4:range": "15",
-    "seamark:light:4:sector_end": "65",
-    "seamark:light:4:sector_start": "47",
-    "seamark:light:5:character": "F",
-    "seamark:light:5:colour": "red",
-    "seamark:light:5:height": "13",
-    "seamark:light:5:period": "5",
-    "seamark:light:5:range": "12",
-    "seamark:light:5:sector_end": "38",
-    "seamark:light:5:sector_start": "26",
-    "seamark:light:reference": "A 2258",
-    "seamark:name": "Orford Ness",
-    "seamark:radar_transponder:category": "racon",
-    "seamark:radar_transponder:group": "T",
-    "seamark:radar_transponder:period": "30",
-    "seamark:type": "landmark",
-    "source": "US NGA Pub. 114. 2011-04-02",
-    "wikidata": "Q15264295"
-  }
-},
-{
-  "type": "node",
   "id": 1473352219,
   "lat": 52.2089833,
   "lon": 1.6250000,
@@ -278143,6 +278148,23 @@
     "seamark:topmark:colour": "white",
     "seamark:topmark:shape": "triangle, point up",
     "seamark:type": "beacon_special_purpose"
+  }
+},
+{
+  "type": "node",
+  "id": 1534625614,
+  "lat": 54.3992500,
+  "lon": 18.7093333,
+  "tags": {
+    "seamark:light:character": "Fl",
+    "seamark:light:colour": "yellow",
+    "seamark:light:height": "9",
+    "seamark:light:period": "3",
+    "seamark:light:range": "3",
+    "seamark:light:reference": "C 3081.33",
+    "seamark:light:sequence": "1+(2)",
+    "seamark:type": "light_minor",
+    "source": "US NGA Pub. 116. 2011-07-07."
   }
 },
 {
@@ -313611,7 +313633,7 @@
     "seamark:light:range": "5",
     "seamark:light:reference": "D 1914",
     "seamark:light:sequence": "0.5+(1.5)+0.5+(1.5)+0.5+(4.5)",
-    "seamark:name": "Panjon",
+    "seamark:name": "Panxón",
     "seamark:type": "light_minor",
     "source": "US NGA Pub. 113. 2011-10-20."
   }
@@ -314031,7 +314053,7 @@
     "seamark:light:range": "5",
     "seamark:light:reference": "D 1907",
     "seamark:light:sequence": "0.4+(3.6)",
-    "seamark:name": "Las Serralleiras",
+    "seamark:name": "As Serralleiras",
     "seamark:type": "light_minor",
     "source": "US NGA Pub. 113. 2011-10-20."
   }
@@ -332634,6 +332656,30 @@
 },
 {
   "type": "node",
+  "id": 1579297218,
+  "lat": 36.8648192,
+  "lon": 35.9453711,
+  "tags": {
+    "man_made": "beacon",
+    "seamark:beacon_special_purpose:colour": "yellow",
+    "seamark:light:character": "Fl",
+    "seamark:light:colour": "yellow",
+    "seamark:light:group": "4",
+    "seamark:light:height": "10",
+    "seamark:light:period": "10",
+    "seamark:light:range": "3",
+    "seamark:light:reference": "N 5912",
+    "seamark:light:sequence": "0.5+(1)+0.5+(1)+0.5+(1)+0.5+(5)",
+    "seamark:name": "Sonmez Cimento",
+    "seamark:radar_transponder:category": "racon",
+    "seamark:topmark:colour": "yellow",
+    "seamark:topmark:shape": "x-shape",
+    "seamark:type": "beacon_special_purpose",
+    "source": "https://msi.nga.mil/Publications/NGALOL"
+  }
+},
+{
+  "type": "node",
   "id": 1579297219,
   "lat": 36.8325995,
   "lon": 35.8903909,
@@ -337441,6 +337487,27 @@
 },
 {
   "type": "node",
+  "id": 1579319221,
+  "lat": 38.7654985,
+  "lon": 26.9193561,
+  "tags": {
+    "seamark:beacon_special_purpose:colour": "yellow",
+    "seamark:light:character": "Fl",
+    "seamark:light:colour": "yellow",
+    "seamark:light:group": "3",
+    "seamark:light:height": "9",
+    "seamark:light:period": "10",
+    "seamark:light:range": "5",
+    "seamark:light:reference": "N 4616.92",
+    "seamark:light:sequence": "1+(1)+1+(1)+1+(5)",
+    "seamark:topmark:colour": "yellow",
+    "seamark:topmark:shape": "x-shape",
+    "seamark:type": "beacon_special_purpose",
+    "source": "US NGA Pub. 113. 2011-10-20."
+  }
+},
+{
+  "type": "node",
   "id": 1579319241,
   "lat": 38.8243167,
   "lon": 26.8942833,
@@ -338292,7 +338359,7 @@
     "seamark:light:group": "2",
     "seamark:light:height": "10",
     "seamark:light:period": "5",
-    "seamark:light:range": "10",
+    "seamark:light:range": "5",
     "seamark:light:reference": "N 5818.5",
     "seamark:light:sequence": "0.3+(0.9)+0.3+(3.5)",
     "seamark:radio_station:category": "ais",
@@ -371291,40 +371358,6 @@
     "seamark:name": "Endeavour Light",
     "seamark:type": "beacon_special_purpose",
     "source": "US NGA Pub. 111. 2024-04-19."
-  }
-},
-{
-  "type": "node",
-  "id": 3978768955,
-  "lat": 54.0985581,
-  "lon": -10.0605093,
-  "tags": {
-    "man_made": "lighthouse",
-    "name": "Blacksod Lighthouse",
-    "seamark:light:1:character": "Fl",
-    "seamark:light:1:colour": "red",
-    "seamark:light:1:group": "2",
-    "seamark:light:1:height": "13",
-    "seamark:light:1:period": "7.5",
-    "seamark:light:1:range": "9",
-    "seamark:light:1:sector_end": "210",
-    "seamark:light:1:sector_start": "189",
-    "seamark:light:1:sequence": "0.5+(1),0.5+(5.5)",
-    "seamark:light:2:character": "Fl",
-    "seamark:light:2:colour": "white",
-    "seamark:light:2:group": "2",
-    "seamark:light:2:height": "13",
-    "seamark:light:2:period": "7.5",
-    "seamark:light:2:range": "12",
-    "seamark:light:2:sector_end": "18",
-    "seamark:light:2:sector_start": "210",
-    "seamark:light:2:sequence": "0.5+(1),0.5+(5.5)",
-    "seamark:light:reference": "A 6272",
-    "seamark:name": "Blacksod",
-    "seamark:type": "light_minor",
-    "source": "Commissioners of Irish Lights",
-    "wikidata": "Q3778643",
-    "wikipedia": "en:Blacksod Lighthouse"
   }
 },
 {
@@ -427562,13 +427595,16 @@
 {
   "type": "node",
   "id": 5907269877,
-  "lat": 18.9142490,
-  "lon": 72.8358820,
+  "lat": 18.9142553,
+  "lon": 72.8358717,
   "tags": {
-    "name": "Dolphin Rock",
     "seamark:construction": "masonry",
+    "seamark:information": "Temporarily extinguished (2014)",
     "seamark:landmark:category": "tower",
-    "seamark:landmark:colour": "white",
+    "seamark:landmark:colour": "grey;white",
+    "seamark:landmark:colour_pattern": "horizontal",
+    "seamark:landmark:construction": "masonry",
+    "seamark:landmark:function": "light_support",
     "seamark:landmark:height": "11",
     "seamark:light:1:character": "Fl",
     "seamark:light:1:colour": "white",
@@ -427597,7 +427633,11 @@
     "seamark:light:3:sector_end": "236",
     "seamark:light:3:sector_start": "147",
     "seamark:light:3:sequence": "00.50+(01.00)+00.50+(01.00)+00.50+(01.00)+00.50+(15.00)",
+    "seamark:light:reference": "F 0520",
+    "seamark:name": "Dolphin Rock",
+    "seamark:status": "extinguished",
     "seamark:type": "landmark",
+    "source": "US NGA Pub 112. 2026",
     "wikipedia": "en:Dolphin Lighthouse"
   }
 },
@@ -430279,6 +430319,38 @@
     "seamark:type": "buoy_safe_water",
     "source": "NOAA Electronic Navigation Chart US5ME1AD",
     "source:position": "USCG List of Lights, vol. 1 (2023, corr. through week 42)"
+  }
+},
+{
+  "type": "node",
+  "id": 6367292430,
+  "lat": 36.9991436,
+  "lon": 27.2560228,
+  "tags": {
+    "seamark:light:character": "Fl",
+    "seamark:light:colour": "green",
+    "seamark:light:height": "20",
+    "seamark:light:period": "5",
+    "seamark:light:range": "5",
+    "seamark:light:reference": "N 4711.91",
+    "seamark:light:sequence": "1+(4)",
+    "seamark:type": "light_minor"
+  }
+},
+{
+  "type": "node",
+  "id": 6367292431,
+  "lat": 36.9982814,
+  "lon": 27.2549897,
+  "tags": {
+    "seamark:light:character": "Fl",
+    "seamark:light:colour": "red",
+    "seamark:light:height": "20",
+    "seamark:light:period": "5",
+    "seamark:light:range": "5",
+    "seamark:light:reference": "N 4711.9",
+    "seamark:light:sequence": "1+(4)",
+    "seamark:type": "light_minor"
   }
 },
 {
@@ -443120,25 +443192,24 @@
 {
   "type": "node",
   "id": 8310510456,
-  "lat": 19.0748055,
-  "lon": 72.8105837,
+  "lat": 19.0748091,
+  "lon": 72.8105840,
   "tags": {
-    "man_made": "lighthouse",
-    "name": "Danda Light House",
-    "operator": "Maharashtra Maritime Board",
     "seamark:beacon_special_purpose:category": "warning",
     "seamark:beacon_special_purpose:colour": "yellow",
     "seamark:beacon_special_purpose:height": "10",
+    "seamark:information": "Shown Oct. 1 to May 31",
     "seamark:light:character": "Fl",
     "seamark:light:colour": "red",
     "seamark:light:exhibition": "night",
-    "seamark:light:group": "1",
     "seamark:light:height": "10",
     "seamark:light:period": "10",
     "seamark:light:range": "5",
-    "seamark:light:sequence": "01.00+(09.000",
+    "seamark:light:reference": "F 0502",
+    "seamark:light:sequence": "01.00+(09.000)",
     "seamark:name": "Uarashi",
-    "seamark:type": "beacon_special_purpose"
+    "seamark:type": "beacon_special_purpose",
+    "source": "US NGA Pub 112. 2026"
   }
 },
 {
@@ -479565,24 +479636,6 @@
 },
 {
   "type": "node",
-  "id": 10588587708,
-  "lat": 36.6766836,
-  "lon": 36.1980837,
-  "tags": {
-    "seamark:light:character": "Fl",
-    "seamark:light:colour": "green",
-    "seamark:light:group": "3",
-    "seamark:light:height": "10",
-    "seamark:light:period": "6",
-    "seamark:light:range": "3",
-    "seamark:light:reference": "N 5914.69",
-    "seamark:light:sequence": "0.4+(1)+0.4+(1)+0.4+(2.8)",
-    "seamark:type": "light_minor",
-    "source": "US NGA Pub. 113. 2011-10-20."
-  }
-},
-{
-  "type": "node",
   "id": 10598249503,
   "lat": 59.0097564,
   "lon": 10.3591942,
@@ -509479,21 +509532,22 @@
 {
   "type": "node",
   "id": 12587572005,
-  "lat": 18.8896853,
-  "lon": 72.8325373,
+  "lat": 18.8897183,
+  "lon": 72.8325397,
   "tags": {
     "seamark:conspicuity": "conspicuous",
+    "seamark:information": "Temporarily extinguished (2014)",
     "seamark:landmark:category": "tower",
     "seamark:landmark:colour": "red;yellow",
     "seamark:landmark:colour_pattern": "squared",
-    "seamark:landmark:elevation": "8",
-    "seamark:landmark:height": "20",
+    "seamark:landmark:construction": "masonry",
+    "seamark:landmark:function": "light_support",
     "seamark:light:1:character": "Fl",
     "seamark:light:1:colour": "red",
     "seamark:light:1:group": "2",
     "seamark:light:1:height": "20",
     "seamark:light:1:period": "6",
-    "seamark:light:1:range": "13",
+    "seamark:light:1:range": "7",
     "seamark:light:1:sector_end": "69",
     "seamark:light:1:sector_start": "31",
     "seamark:light:1:sequence": "00.30+(01.40)+00.30+(04.00)",
@@ -509502,7 +509556,7 @@
     "seamark:light:2:group": "2",
     "seamark:light:2:height": "20",
     "seamark:light:2:period": "6",
-    "seamark:light:2:range": "13",
+    "seamark:light:2:range": "7",
     "seamark:light:2:sector_end": "15",
     "seamark:light:2:sector_start": "209",
     "seamark:light:2:sequence": "00.30+(01.40)+00.30+(04.00)",
@@ -509524,9 +509578,32 @@
     "seamark:light:4:sector_end": "209",
     "seamark:light:4:sector_start": "186",
     "seamark:light:4:sequence": "00.30+(01.40)+00.30+(04.00)",
+    "seamark:light:reference": "F 0516",
     "seamark:name": "Sunk Rock",
+    "seamark:status": "extinguished",
     "seamark:type": "landmark",
-    "wikipedia": "en:Sunk Rock Lighthouse"
+    "source": "US NGA Pub 112. 2026"
+  }
+},
+{
+  "type": "node",
+  "id": 12587572007,
+  "lat": 18.8343646,
+  "lon": 72.8966582,
+  "tags": {
+    "seamark:beacon_special_purpose:category": "warning",
+    "seamark:beacon_special_purpose:colour": "yellow",
+    "seamark:beacon_special_purpose:shape": "lattice",
+    "seamark:light:character": "Fl",
+    "seamark:light:colour": "white",
+    "seamark:light:height": "26",
+    "seamark:light:period": "5",
+    "seamark:light:range": "7",
+    "seamark:light:reference": "F 0515",
+    "seamark:light:sequence": "0.5+(4.5)",
+    "seamark:name": "Gull Island",
+    "seamark:type": "beacon_special_purpose",
+    "source": "US NGA Pub 112. 2026"
   }
 },
 {
@@ -513823,12 +513900,13 @@
 {
   "type": "node",
   "id": 12595018651,
-  "lat": 18.9351811,
-  "lon": 72.8743958,
+  "lat": 18.9351615,
+  "lon": 72.8743781,
   "tags": {
     "seamark:beacon_special_purpose:category": "warning",
     "seamark:beacon_special_purpose:colour": "white",
     "seamark:beacon_special_purpose:shape": "lattice",
+    "seamark:information": "Temporarily extinguished (2020)",
     "seamark:light:1:character": "Oc",
     "seamark:light:1:colour": "red",
     "seamark:light:1:group": "1",
@@ -513847,8 +513925,11 @@
     "seamark:light:2:sector_end": "36.5",
     "seamark:light:2:sector_start": "7.5",
     "seamark:light:2:sequence": "(02.00)+03.00",
+    "seamark:light:reference": "F 0546",
     "seamark:name": "Tucker",
-    "seamark:type": "beacon_special_purpose"
+    "seamark:status": "extinguished",
+    "seamark:type": "beacon_special_purpose",
+    "source": "US NGA Pub 112. 2026"
   }
 },
 {
@@ -551383,6 +551464,7 @@
     "name": "Jahnkenort (Unterfeuer)",
     "seamark:beacon_special_purpose:category": "leading",
     "seamark:beacon_special_purpose:colour": "white",
+    "seamark:beacon_special_purpose:shape": "lattice",
     "seamark:beacon_special_purpose:vertical_length": "10",
     "seamark:light:character": "Oc",
     "seamark:light:colour": "white",
@@ -551448,6 +551530,197 @@
     "seamark:radio_station:category": "ais",
     "seamark:radio_station:mmsi": "004192227",
     "seamark:type": "landmark",
+    "source": "US NGA Pub 112. 2026"
+  }
+},
+{
+  "type": "node",
+  "id": 14381713674,
+  "lat": 18.7032878,
+  "lon": 72.8133745,
+  "tags": {
+    "seamark:landmark:category": "tower",
+    "seamark:landmark:construction": "masonry",
+    "seamark:landmark:function": "light_support",
+    "seamark:light:1:character": "Fl",
+    "seamark:light:1:colour": "red",
+    "seamark:light:1:group": "2",
+    "seamark:light:1:height": "47",
+    "seamark:light:1:period": "10",
+    "seamark:light:1:range": "22",
+    "seamark:light:1:sector_end": "001",
+    "seamark:light:1:sector_start": "198",
+    "seamark:light:1:sequence": "0.3+(2.6),0.3+(6.8)",
+    "seamark:light:2:character": "Fl",
+    "seamark:light:2:colour": "white",
+    "seamark:light:2:group": "2",
+    "seamark:light:2:height": "47",
+    "seamark:light:2:period": "10",
+    "seamark:light:2:range": "25",
+    "seamark:light:2:sector_end": "198",
+    "seamark:light:2:sector_start": "001",
+    "seamark:light:2:sequence": "0.3+(2.6),0.3+(6.8)",
+    "seamark:light:reference": "F 0556",
+    "seamark:name": "Khanderi Island",
+    "seamark:type": "landmark",
+    "source": "US NGA Pub 112. 2026"
+  }
+},
+{
+  "type": "node",
+  "id": 14382555365,
+  "lat": 1.6236095,
+  "lon": 127.9931409,
+  "tags": {
+    "description": "White beacon",
+    "man_made": "beacon",
+    "seamark:light:1:character": "Fl",
+    "seamark:light:1:colour": "white",
+    "seamark:light:1:height": "13",
+    "seamark:light:1:period": "3.0",
+    "seamark:light:1:range": "12",
+    "seamark:light:1:sequence": "1.0+(2.0)",
+    "seamark:light:reference": "F 2110.5",
+    "seamark:name": "Kupakupa",
+    "seamark:type": "light_minor",
+    "source": "US NGA Pub. 112. 2026-09-01"
+  }
+},
+{
+  "type": "node",
+  "id": 14382555366,
+  "lat": 1.1043594,
+  "lon": 127.7901753,
+  "tags": {
+    "description": "White beacon",
+    "man_made": "beacon",
+    "seamark:light:1:character": "Fl",
+    "seamark:light:1:colour": "white",
+    "seamark:light:1:group": "2",
+    "seamark:light:1:height": "14",
+    "seamark:light:1:period": "7.0",
+    "seamark:light:1:range": "12",
+    "seamark:light:1:sequence": "1.0+(1.0)+1.0+(4.0)",
+    "seamark:light:reference": "F 2109",
+    "seamark:name": "Tg. Loleo",
+    "seamark:type": "light_minor",
+    "source": "US NGA Pub. 112. 2026-09-01"
+  }
+},
+{
+  "type": "node",
+  "id": 14382555367,
+  "lat": 1.6633003,
+  "lon": 127.4815538,
+  "tags": {
+    "description": "White metal framework structure",
+    "height": "30",
+    "man_made": "beacon",
+    "seamark:light:1:character": "Fl",
+    "seamark:light:1:colour": "white",
+    "seamark:light:1:height": "93",
+    "seamark:light:1:period": "3.0",
+    "seamark:light:1:range": "18",
+    "seamark:light:1:sequence": "0.5+(2.5)",
+    "seamark:light:reference": "F 2110.3",
+    "seamark:name": "Sidanga",
+    "seamark:type": "light_major",
+    "source": "US NGA Pub. 112. 2026-09-01"
+  }
+},
+{
+  "type": "node",
+  "id": 14385066032,
+  "lat": 37.1079284,
+  "lon": 27.2923274,
+  "tags": {
+    "seamark:light:character": "Fl",
+    "seamark:light:colour": "green",
+    "seamark:light:group": "2",
+    "seamark:light:height": "8",
+    "seamark:light:period": "8",
+    "seamark:light:range": "5",
+    "seamark:light:reference": "N 4665.15",
+    "seamark:light:sequence": "1+(1)+1+(5)",
+    "seamark:type": "light_minor"
+  }
+},
+{
+  "type": "node",
+  "id": 14385082116,
+  "lat": 36.8995033,
+  "lon": 35.9844982,
+  "tags": {
+    "seamark:beacon_special_purpose:colour": "yellow",
+    "seamark:light:character": "Fl",
+    "seamark:light:colour": "yellow",
+    "seamark:light:height": "10",
+    "seamark:light:period": "5",
+    "seamark:light:range": "5",
+    "seamark:light:reference": "N 5912.5",
+    "seamark:light:sequence": "1+(4)",
+    "seamark:topmark:colour": "yellow",
+    "seamark:topmark:shape": "x-shape",
+    "seamark:type": "beacon_special_purpose"
+  }
+},
+{
+  "type": "node",
+  "id": 14385082117,
+  "lat": 36.9001747,
+  "lon": 35.9763372,
+  "tags": {
+    "seamark:beacon_special_purpose:colour": "yellow",
+    "seamark:light:character": "Fl",
+    "seamark:light:colour": "yellow",
+    "seamark:light:height": "10",
+    "seamark:light:period": "3",
+    "seamark:light:range": "5",
+    "seamark:light:reference": "N 5912.4",
+    "seamark:light:sequence": "0.5+(2.5)",
+    "seamark:topmark:colour": "yellow",
+    "seamark:topmark:shape": "x-shape",
+    "seamark:type": "beacon_special_purpose"
+  }
+},
+{
+  "type": "node",
+  "id": 14386696069,
+  "lat": -6.0345697,
+  "lon": 124.0457770,
+  "tags": {
+    "description": "White beacon",
+    "man_made": "beacon",
+    "seamark:light:1:character": "Fl",
+    "seamark:light:1:colour": "white",
+    "seamark:light:1:height": "45",
+    "seamark:light:1:period": "10.0",
+    "seamark:light:1:range": "24",
+    "seamark:light:1:sequence": "0.1+(9.9)",
+    "seamark:light:reference": "Q 1558.34",
+    "seamark:name": "Pulau Binongko",
+    "seamark:type": "light_major",
+    "source": "US NGA Pub. 112. 2026-09-01"
+  }
+},
+{
+  "type": "node",
+  "id": 14387877991,
+  "lat": 19.1524023,
+  "lon": 72.7797408,
+  "tags": {
+    "seamark:light:1:character": "Fl",
+    "seamark:light:1:colour": "white",
+    "seamark:light:1:height": "14",
+    "seamark:light:1:period": "2",
+    "seamark:light:1:range": "5",
+    "seamark:light:1:sector_end": "040",
+    "seamark:light:1:sector_start": "003",
+    "seamark:light:1:sequence": "0.3+(1.7)",
+    "seamark:light:reference": "F 0500",
+    "seamark:name": "Vesava",
+    "seamark:signal_station_warning:category": "storm",
+    "seamark:type": "signal_station_warning",
     "source": "US NGA Pub 112. 2026"
   }
 },
@@ -559950,7 +560223,7 @@
     "seamark:type": "light_minor",
     "source": "US NGA Pub. 116. 2011-07-07.",
     "wikidata": "Q12327375",
-    "wikipedia": "de:Leuchtturm Miķeļtornis"
+    "wikipedia": "lv:Miķeļbāka"
   }
 },
 {
@@ -560394,7 +560667,7 @@
     "seamark:type": "light_major",
     "source": "US NGA Pub. 116. 2011-07-07.",
     "wikidata": "Q50378806",
-    "wikipedia": "de:Leuchtturm Engure"
+    "wikipedia": "lv:Engures bāka"
   }
 },
 {
@@ -567277,7 +567550,7 @@
     "seamark:type": "light_minor",
     "source": "US NGA Pub. 116. 2011-07-07.",
     "wikidata": "Q50378817",
-    "wikipedia": "de:Leuchtturm Lācis"
+    "wikipedia": "lv:Lāču bāka"
   }
 },
 {
@@ -574671,7 +574944,7 @@
     "heritage:operator": "vkpai",
     "heritage:operator:wikidata": "Q20566223",
     "man_made": "lighthouse",
-    "name": "Ovīšu bāka",
+    "name": "Ovišu bāka",
     "ref:LV:addr": "102803696",
     "ref:vkpai": "8568",
     "seamark:light:1:character": "LFl",
@@ -574686,7 +574959,7 @@
     "seamark:name": "Ovisi",
     "seamark:type": "light_major",
     "wikidata": "Q16348532",
-    "wikipedia": "de:Leuchtturm Ovīši"
+    "wikipedia": "lv:Ovišu bāka"
   }
 },
 {
@@ -575484,7 +575757,7 @@
     "start_date": "1884",
     "website": "http://www.kolkasrags.lv/",
     "wikidata": "Q8254782",
-    "wikipedia": "de:Leuchtturm Kap Kolka"
+    "wikipedia": "lv:Kolkas bāka"
   }
 },
 {
@@ -576278,7 +576551,7 @@
     "seamark:type": "light_minor",
     "source": "US NGA Pub. 116. 2011-07-07.",
     "wikidata": "Q50378818",
-    "wikipedia": "de:Leuchtturm Vitrupe"
+    "wikipedia": "lv:Grīntāla bāka"
   }
 },
 {
@@ -576315,7 +576588,7 @@
     "seamark:type": "light_major",
     "source": "US NGA Pub. 116. 2021",
     "wikidata": "Q50378807",
-    "wikipedia": "de:Leuchtturm Buļļuciems"
+    "wikipedia": "lv:Buļļuciema bāka"
   }
 },
 {
@@ -576447,7 +576720,7 @@
     "seamark:type": "light_major",
     "source": "US NGA Pub. 116. 2021",
     "wikidata": "Q50378805",
-    "wikipedia": "de:Leuchtturm Sīkrags"
+    "wikipedia": "lv:Sīkragciema bāka"
   }
 },
 {
